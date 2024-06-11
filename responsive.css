@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1440px) {
+    
+.bg-shape1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 9999px;
+    position: relative;
+    animation: one 10s infinite;
+}
+
+.bg-shape2 {
+    width: 500px;
+    height: 500px;
+    border-radius: 9999px;
+    position: relative;
+    animation: two 10s infinite;
+}
+
+}

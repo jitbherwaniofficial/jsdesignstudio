@@ -1,0 +1,80 @@
+/**************************** HERO PART ************************************ */
+/* Nav */
+.hero-cta-btn:hover{
+ 
+  background-color: #adff2f ;
+  color:#00008d !important;
+}
+.hero-cta-btn:active{
+  transform: translateY(2.5px);
+}
+
+
+
+
+
+
+/* Hero-heading-part */
+@keyframes one {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      left: -100px;
+      top: 70px;
+    }
+    50% {
+      left: 20px;
+      /* top: 150px; */
+      top: 80px;
+    }
+    75% {
+      left: 50px;
+      top: 100px;
+    }
+    100% {
+      left: 0px;
+      top: 0px;
+    }
+  }
+  
+  @keyframes two {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      left: 50px;
+      top: 10px;
+    }
+    50% {
+      left: 100px;
+      top: 50px;
+    }
+    75% {
+      left: 50px;
+      top: 100px;
+    }
+    100% {
+      left: 0px;
+      top: 0px;
+    }
+  }
+
+  .opacity-50 {
+    opacity: 0.5;
+  }
+  
+  .bg-blur {
+    filter: blur(80px);
+  }
+  
+  .bg-blue {
+    background-color: #adff2f;
+  }
+  
+  .bg-green {
+    background-color: #adff2f;
+  }
+  
